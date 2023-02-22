@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Prompt&display=swap');
+
+:root{
+    --fondo: #332C39;
+    --font-main: #F0EEED;
+    --font-sec: #C92C6D;
+    --salmon-ligth: #F7C5A8;
+    --verde:#609EA2;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    background: #ffffff
+    ;
+}
+.nav-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 0 3px 3px rgb(0 0 0 / 10%);
+    left: 0;
+    position: relative;
+    justify-items: center;
+    place-items: center;
+    /* justify-content: center;
+    width: 100%; */
+}
+.nav-logo {
+    margin-left: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+.nav-logo img{
+    width: 120px;
+    height: 80px;
+    margin-right: 10px;
+}
+.nav-main p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin-right: 20px; 
+    font-size: 1.6rem;
+}
+.nav-contacto {
+    margin-right: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav-contacto .button{
+    border-radius: 15px;
+    border-radius: 30px;
+    padding: 2px 20px;
+}
+.nav-contacto .button-1{
+    border: 1px solid grey;    
+}
+.nav-contacto .button-2{
+    background: black;
+    color: #fff;
+}
